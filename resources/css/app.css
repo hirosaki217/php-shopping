@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.user-icon-edit {
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg)
+        brightness(118%) contrast(119%);
+}
+
+.user-icon-delete {
+    filter: invert(11%) sepia(96%) saturate(5728%) hue-rotate(343deg)
+        brightness(93%) contrast(89%);
+}
+
+.disable-text.input-table {
+    border: none;
+    outline: none;
+}
+
+.disable-text.input-table:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.input-table {
+    width: 100%;
+}
+
+.textError {
+    color: red;
+    display: block;
+    height: 20px;
+}
+
+.wrapper-image {
+    width: 300px;
+    height: 300px;
+}
+
+.hover-product-id {
+    position: relative;
+}
+.image-show {
+    display: none;
+    position: absolute;
+    z-index: 99999;
+}
+
+.hover-product-id:hover .image-show {
+    display: block;
+}
